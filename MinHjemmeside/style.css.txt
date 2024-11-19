@@ -1,0 +1,131 @@
+/* Generel styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Hero section */
+.hero {
+  background-color: #ff4081;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3em;
+  margin: 0;
+}
+
+.hero-tagline {
+  font-size: 1.2em;
+}
+
+.cta-button {
+  background-color: white;
+  color: #ff4081;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #ff80b1;
+}
+
+/* About section */
+#about {
+  padding: 50px 0;
+  background-color: white;
+}
+
+#about h2 {
+  text-align: center;
+}
+
+#about p {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+/* Benefits section */
+#benefits {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.benefit-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  width: 23%;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card:hover {
+  background-color: #ff4081;
+  color: white;
+}
+
+/* Shop section */
+#shop {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.product-card {
+  background-color: #ff4081;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.product-card img {
+  width: 200px;
+  height: auto;
+}
+
+.buy-now {
+  background-color: white;
+  color: #ff4081;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.buy-now:hover {
+  background-color: #ff80b1;
+}
+
+/* Footer section */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}

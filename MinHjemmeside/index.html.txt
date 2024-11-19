@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BUST - Naturlig Lotion</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1 class="hero-title">BUST Lotion</h1>
+      <p class="hero-tagline">Balance, Uplift, Smooth, Tone</p>
+      <a href="#shop" class="cta-button">Shop nu</a>
+    </div>
+  </header>
+
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>Om BUST</h2>
+      <p>BUST er en 100% naturlig lotion, der er designet til at give din hud en perfekt balance. Vores unikke formel hjælper med at tone, løfte, glatte og genopfriske din hud.</p>
+    </div>
+  </section>
+
+  <section id="benefits" class="section benefits">
+    <div class="container">
+      <h2>Fordele</h2>
+      <div class="benefit-cards">
+        <div class="card" id="balance-card">
+          <h3>Balance</h3>
+          <p>Skab balance i din hud med naturlige ingredienser, der beroliger og genopretter fugtigheden.</p>
+        </div>
+        <div class="card" id="uplift-card">
+          <h3>Uplift</h3>
+          <p>Løft din huds udseende og få en ungdommelig glød med vores potente anti-aging ingredienser.</p>
+        </div>
+        <div class="card" id="smooth-card">
+          <h3>Smooth</h3>
+          <p>Giv din hud en blød og silkeagtig fornemmelse, der føles fantastisk hele dagen.</p>
+        </div>
+        <div class="card" id="tone-card">
+          <h3>Tone</h3>
+          <p>Vær stolt af din hudtone med en lotion, der hjælper med at forbedre hudens struktur og elasticitet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="shop" class="section shop">
+    <div class="container">
+      <h2>Shop BUST</h2>
+      <div class="shop-container">
+        <div class="product-card">
+          <img src="bust-lotion.jpg" alt="BUST Lotion">
+          <p>100% Naturlig Lotion</p>
+          <button class="buy-now">Køb nu</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 BUST Lotion. Alle rettigheder forbeholdes.</p>
+  </footer>
+</body>
+</html>
